@@ -26,10 +26,11 @@
 
   ### component Architecture
   - App.js (stateful: hold the hikers info, this.state.hikers)
-    -header.js (functional: will just have the jsx for our header)
+   -header.js (functional: will just have the jsx for our header)
     <!-- -hikers.js (functional: will be in charge of displaying hikers list) -->
     -editHikers.js (stateful: will let you change/update hikers info   this.state.editing)
     -addHiker.js (stateful: lets users add a new hiker to the list of hikers this.state.name, this.state.miles, this.state.summits)
+    -deleteHiker.js (stateful: useing this.state.id)
 
 ### design files
 <img src="./design-imgs/wireframe-peakBagger.png">

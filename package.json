@@ -6,6 +6,8 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
@@ -30,5 +32,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "## application concept and wireframe ## application -this is a peakbagger app  -we will be working with a premade users in a json file -full crud   -get: will get all hikers and there info   -post: will add a hiker to our list   -put: will update our hikes info   -delete: will delete a hiker from our list",
+ 
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtown970/peakbagger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtown970/peakbagger/issues"
+  },
+  "homepage": "https://github.com/jtown970/peakbagger#readme",
+  "main": "server/index.js",
+  "proxy": "http://localhost:4321"
 }
