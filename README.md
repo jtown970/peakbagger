@@ -34,3 +34,4 @@
 ### design files
 <img src="./design-imgs/wireframe-peakBagger.png">
 <img src="./screenshots/layout-peakbagger.png">
+<img src="/">
